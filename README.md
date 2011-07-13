@@ -6,8 +6,8 @@ myCommentsApp is a simple demonstration of how to create a Rails 3
 application with unobtrusive Javascript using jQuery.js instead of the
 default prototype.js javascript package.  It is derived from
 [bernat/myCommentsApp](https://github.com/bernat/myCommentsApp), and
-includes modifications so that it can be run on (heroku.com)[Heroku's
-hosting service].
+includes modifications so that it can be run on [heroku.com](Heroku's
+hosting service).
 
 The major steps, detailed below, are:
 
