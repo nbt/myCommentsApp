@@ -2,7 +2,20 @@
 
 Create a Heroku-ready Rails 3 app with unobtrusive Javascript using jQuery
 
-Based on [bernat/myCommentsApp](https://github.com/bernat/myCommentsApp).
+myCommentsApp is a simple demonstration of how to create a Rails 3
+application with unobtrusive Javascript using jQuery.js instead of the
+default prototype.js javascript package.  It is derived from
+[bernat/myCommentsApp](https://github.com/bernat/myCommentsApp), and
+includes modifications so that it can be run on (heroku.com)[Heroku's
+hosting service].
+
+The major steps, detailed below, are:
+
+* Create a new Rails application
+* Prepare the basic Comment model and include the jquery package
+* Fill in the application-specific files
+* Test on your local machine
+* Deploy on Heroku
 
 ## Step 1: Create a new Rails app.
 
