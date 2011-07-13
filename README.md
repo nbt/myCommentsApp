@@ -96,7 +96,12 @@ Edit config/routes.rb to set up the root path:
 
 Direct your browser to [localhost:3000](localhost:3000) and verify that you can post and delete comments.
 
-If all is working, you are ready to push your application to Heroku.
+If everything is working properly, do the final commit:
+
+    % git add .
+    % git commit -m 'ready to deploy'
+
+Now you are ready to push your application to Heroku.
 
 ## Step 4: Push to heroku
 
