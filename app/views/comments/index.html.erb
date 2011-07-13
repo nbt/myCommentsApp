@@ -1,14 +1,11 @@
-<span id="comments_count"><%= pluralize(@comments.count, "Comment") %></span>
-<div id="comments">
-  <%= render :partial => @comments, :locals => { :list => true } %>
-</div>
-
-<hr />
-
-<div id="comment-notice"></div>
+<h2>Comments</h2>
+<%= content_tag(:span, pluralize(@comments.count, "comment"), :id => "comments_count") %>
+<%= content_tag(:div, render(@comments), :id => "comments") %>
+<%= tag(:hr) %>
+<%= content_tag(:div, '', :id => "comment-notice") %>
 
 <h2>Say something!</h2>
-<% form_for Comment.new, :remote => true do |f| %>
+<%= form_for Comment.new, :remote => true do |f| %>
 	<%= f.label :name, "Your name" %><br />
 	<%= f.text_field :name %><br />
 	<%= f.label :body, "Comment" %><br />
